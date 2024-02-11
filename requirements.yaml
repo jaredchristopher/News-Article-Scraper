@@ -1,0 +1,4 @@
+name: cs325_project1
+channels:
+  - defaults
+prefix: /Users/jaredchristopher/miniconda3/envs/cs325_project1
