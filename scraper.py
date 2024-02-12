@@ -51,12 +51,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-                # # Extract article title if available
-                # if soup.title is not None:
-                #     article_title = soup.title.string.strip()
-
-                #     # Replace special characters to make valid file name
-                #     article_title = ''.join(c for c in article_title if c.isalnum() or c in [' ', '-'])
-                # else:
-                #     print(f"No title found for {url}. Skipping...")
