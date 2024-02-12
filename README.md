@@ -16,7 +16,7 @@ This Python script fetches the HTML content of news articles from a list of URLs
     pip install requests 
     pip install beautifulsoup4
     ```
-    *IMPORTANT*: Look at the `requirements.yaml` to double check that you have all dependencies in your environment. To ensure there are no conflicts, ensure that your dependencies are the same as those in the `requirements.yaml` file.
+    *IMPORTANT*: Look at the `requirements.yaml` to double check that you have all dependencies in your environment. To ensure there are no conflicts, check that your dependencies are the same as those in the `requirements.yaml` file.
 
 3. **Prepare URLs**: Create a `urls.txt` file in the same directory as the script and add the URLs of the news articles you want to scrape. Copy and paste the entire URL in the text file, and make sure you use ONLY ONE URL per line.
 
