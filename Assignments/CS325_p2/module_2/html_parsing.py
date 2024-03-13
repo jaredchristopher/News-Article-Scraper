@@ -34,11 +34,13 @@ from bs4 import BeautifulSoup
 class ArticleParser(ABC):
     @abstractmethod
     def extract_article_text(self, html_content):
-        pass
+        message = "Article Text"
+        return message
 
     @abstractmethod
     def extract_article_title(self, html_content):
-        pass
+        message = "Article Title"
+        return message
 
 class Article(ArticleParser):
     # Extracts article text from HTML content.
